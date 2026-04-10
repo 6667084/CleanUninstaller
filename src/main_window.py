@@ -5,7 +5,7 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk, GLib, Gdk, Gio
 
-from . import APP_NAME, ICON_DIR, RESOURCE_DIR
+from . import APP_NAME, APP_VERSION, ICON_DIR, RESOURCE_DIR
 from .scanner import AppScanner, AppInfo
 from .uninstaller import Uninstaller, UninstallResult
 
@@ -13,7 +13,7 @@ from .uninstaller import Uninstaller, UninstallResult
 class MainWindow(Gtk.Window):
     def __init__(self, app=None):
         super().__init__()
-        self.set_title(APP_NAME)
+        self.set_title(f"{APP_NAME} v{APP_VERSION}")
         self.set_default_size(960, 640)
         self.set_position(Gtk.WindowPosition.CENTER)
 
@@ -73,7 +73,7 @@ class MainWindow(Gtk.Window):
                 pass
             header.pack_start(img, False, False, 8)
 
-        title_label = Gtk.Label(label=APP_NAME)
+        title_label = Gtk.Label(label=f"{APP_NAME} v{APP_VERSION}")
         title_label.set_name("title")
         title_label.get_style_context().add_class("title")
         header.pack_start(title_label, False, False, 4)
