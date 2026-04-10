@@ -4,7 +4,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${SCRIPT_DIR}"
 
-VERSION="1.0.0"
+VERSION="1.1.0"
 PKG_NAME="clean-uninstaller"
 DEB_NAME="${PKG_NAME}-v${VERSION}-Linux-x86_64.deb"
 
