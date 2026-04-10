@@ -2,7 +2,7 @@ import os
 import sys
 
 APP_NAME = "CleanUninstaller"
-APP_VERSION = "1.0.0"
+APP_VERSION = "1.1.0"
 APP_ID = "com.cleanuninstaller.app"
 
 RESOURCE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "resources")
