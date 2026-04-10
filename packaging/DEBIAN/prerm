@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+echo "正在卸载 Clean Uninstaller..."

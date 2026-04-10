@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# 更新桌面数据库
+update-desktop-database /usr/share/applications/ 2>/dev/null || true
+
+# 更新图标缓存
+gtk-update-icon-cache /usr/share/icons/hicolor/ 2>/dev/null || true
+
+echo "Clean Uninstaller 安装完成！"
+echo "您可以通过应用菜单搜索「干净卸载」或运行 clean-uninstaller 命令来启动。"

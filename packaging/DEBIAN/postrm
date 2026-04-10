@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+# 清理桌面数据库
+update-desktop-database /usr/share/applications/ 2>/dev/null || true
+
+echo "Clean Uninstaller 已卸载。"

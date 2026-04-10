@@ -21,7 +21,7 @@
 ### 方式一：.deb 安装包（推荐）
 
 ```bash
-sudo dpkg -i clean-uninstaller-v1.0.0-Linux-x86_64.deb
+sudo dpkg -i clean-uninstaller-v1.1.1-Linux-x86_64.deb
 sudo apt-get install -f
 ```
 

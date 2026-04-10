@@ -3,7 +3,6 @@ __pycache__/
 *.pyo
 *.deb
 *.run
-packaging/
 build/
 dist/
 *.egg-info/

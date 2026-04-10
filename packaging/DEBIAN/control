@@ -1,0 +1,11 @@
+Package: clean-uninstaller
+Version: 1.1.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, policykit-1
+Recommends: flatpak
+Maintainer: CleanUninstaller <6667084+6667084@users.noreply.github.com>
+Description: Linux 应用彻底卸载工具
+ 彻底卸载应用程序并清理残留文件，支持 APT/Flatpak。
+ 自动清理配置文件、缓存、用户数据、日志、孤立依赖。
