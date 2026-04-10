@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="broomGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="48" ry="48" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  <g transform="translate(128,128) rotate(-45) translate(-128,-128)">
+    <rect x="118" y="30" width="20" height="110" rx="6" fill="url(#broomGrad)" stroke="#BDBDBD" stroke-width="2"/>
+    <path d="M80 140 Q88 120 100 115 L156 115 Q168 120 176 140 L180 200 Q180 220 160 220 L96 220 Q76 220 76 200 Z" fill="#E53935" stroke="#C62828" stroke-width="2"/>
+    <path d="M90 155 L100 195 M110 150 L112 198 M128 148 L128 200 M146 150 L144 198 M166 155 L156 195" stroke="#C62828" stroke-width="3" stroke-linecap="round"/>
+    <path d="M76 185 Q60 190 55 205 Q50 220 65 225 Q75 228 80 215" fill="#E53935" stroke="#C62828" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(180, 50)">
+    <circle cx="0" cy="0" r="28" fill="#43A047"/>
+    <path d="M-12,0 L-4,8 L14,-10" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

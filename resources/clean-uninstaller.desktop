@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Clean Uninstaller
+Name[zh_CN]=干净卸载
+Comment=Completely uninstall applications and clean residual files
+Comment[zh_CN]=彻底卸载应用程序并清理残留文件
+Exec=/opt/clean-uninstaller/clean-uninstaller
+Icon=/opt/clean-uninstaller/resources/icons/clean-uninstaller.svg
+Terminal=false
+Categories=System;PackageManager;GTK;
+Keywords=uninstall;remove;clean;package;
+StartupNotify=true
+StartupWMClass=clean-uninstaller
