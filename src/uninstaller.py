@@ -79,7 +79,11 @@ class Uninstaller:
                     progress_callback(0.6, "正在扫描残留文件...")
 
                 cleaner = ResidualCleaner()
-                residuals = cleaner.scan_residuals(app.package_name, app.source)
+                residuals = cleaner.scan_residuals(
+                    app.package_name, app.source,
+                    display_name=app.display_name,
+                    app_icon_name=app.icon_name
+                )
 
                 if log_callback:
                     log_callback(f"发现 {len(residuals)} 个残留项目")
