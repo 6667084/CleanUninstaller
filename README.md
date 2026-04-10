@@ -20,8 +20,10 @@
 
 ### 方式一：.deb 安装包（推荐）
 
+从 [Releases](https://github.com/6667084/CleanUninstaller/releases) 页面下载最新版本的 `.deb` 文件，然后安装：
+
 ```bash
-sudo dpkg -i clean-uninstaller-v1.1.1-Linux-x86_64.deb
+sudo dpkg -i clean-uninstaller-*.deb
 sudo apt-get install -f
 ```
 
